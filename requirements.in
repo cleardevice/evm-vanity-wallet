@@ -1,0 +1,5 @@
+# Прямые runtime-зависимости. Полный lock с хешами — requirements.txt:
+#   uv pip compile requirements.in --universal --python-version 3.10 --generate-hashes -o requirements.txt
+eth-account==0.14.0
+mnemonic==0.21
+coincurve==21.0.0
